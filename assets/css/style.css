@@ -15,9 +15,10 @@ div > span {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 700px;
 }
 
-.border-radius {
+.border-radius,  {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -210,17 +211,19 @@ header {
     height: 110px;
     overflow: auto;
     border: 1px solid #333;
+    letter-spacing : -.36em;
 }
 
 
 .item3 {
-    width: 31%;
-    height: 100px;
+    width: 33.333%;
+    height: 100%;
     color: #fff;
     background-color: #5D5F60;
     display: inline-block;
     line-height: 100px;
     text-align: center;
+    letter-spacing: normal;
 }
 
 #end {
