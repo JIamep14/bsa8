@@ -184,9 +184,6 @@ header {
     height: 200px;
     overflow: auto;
     border: 1px solid #333;
-}
-
-#items2 {
     text-align: center;
 }
 
@@ -198,7 +195,7 @@ header {
 }
 
 .item2 {
-    margin: 5px;
+    margin: 0 auto;
     width: 30%;
     height: 100px;
     line-height: 100px;
@@ -217,7 +214,7 @@ header {
 
 
 .item3 {
-    width: 32%;
+    width: 31%;
     height: 100px;
     color: #fff;
     background-color: #5D5F60;
@@ -227,7 +224,7 @@ header {
 }
 
 #end {
-    height: 100px;
+    height: 105px;
     overflow: auto;
     border: 1px solid #333;
     line-height: 100px;
