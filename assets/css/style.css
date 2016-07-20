@@ -145,7 +145,7 @@ header {
     overflow: auto;
     border: 1px solid #333;
     text-align: center;
-	/*white-space: nowrap;*/
+    white-space: nowrap;
 }
 
 .item1 {
