@@ -166,20 +166,21 @@ header {
 
 .item1:nth-child(3n)::before {
     content: " ";
+	border-top: 30px solid red; 
+	border-left: 30px solid transparent;
     position: absolute;
-    border:50px solid transparent;
-    border-right-color: red;
-    top: 0px;
-    left: -100px;
+    top: 0;
+    right: 0;
+    
 }
 
 .item1:nth-child(2n)::after {
     content: " ";
+	border-top: 30px solid blue; 
+	border-left: 30px solid transparent;
     position: absolute;
-    border:50px solid transparent;
-    border-left-color: blue;
-    top: 0px;
-    left: 100px;
+    top: 0;
+    right: 0;
 }
 
 #items2 {
